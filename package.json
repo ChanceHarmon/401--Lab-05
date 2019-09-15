@@ -1,0 +1,32 @@
+{
+  "name": "401--Lab-05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll --verbose",
+    "lint": "eslint '**/*.js'",
+    "startDB": "mkdir -p ./.db && mongod --dbpath=./.db",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanceHarmon/401--Lab-05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChanceHarmon/401--Lab-05/issues"
+  },
+  "homepage": "https://github.com/ChanceHarmon/401--Lab-05#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.7.1",
+    "supergoose": "^0.2.6"
+  }
+}
